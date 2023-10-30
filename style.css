@@ -51,8 +51,8 @@ a:hover {
 }
 
 .container {
-  width: 700px;
-  margin: 40px auto;
+  margin: auto;
+  width: 1024px;
 }
 
 p {
@@ -84,17 +84,10 @@ h3 {
 
 }
 
-@media (max-width: 2560px) {
+@media (min-width: 1440px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
-    width: 2200px;
-  }
-}
-
-@media (max-width: 1440px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
-  .container {
-    width: 1200px;
+    width: 100%;
   }
 }
 
@@ -121,13 +114,6 @@ h3 {
 @media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 300px;
-  }
-}
-
-@media (max-width: 300px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
-  .container {
-    width: 100px;
+    width: 100%;
   }
 }
